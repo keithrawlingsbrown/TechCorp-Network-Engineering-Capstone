@@ -1,0 +1,28 @@
+VLAN ID,VLAN Name,Subnet,Subnet Mask,Network Address,First Usable IP,Last Usable IP,Broadcast Address,Total Hosts,Usable Hosts,Department,Purpose,Gateway IP
+1,Native,192.168.1.0,255.255.255.0,192.168.1.0,192.168.1.1,192.168.1.254,192.168.1.255,256,254,Default,Default VLAN,192.168.1.1
+10,Management,192.168.10.0,255.255.255.0,192.168.10.0,192.168.10.1,192.168.10.254,192.168.10.255,256,254,IT,Network devices management,192.168.10.1
+20,Servers,192.168.20.0,255.255.255.0,192.168.20.0,192.168.20.1,192.168.20.254,192.168.20.255,256,254,IT,Server infrastructure,192.168.20.1
+30,Sales,192.168.30.0,255.255.255.0,192.168.30.0,192.168.30.1,192.168.30.254,192.168.30.255,256,254,Sales,Sales department,192.168.30.1
+40,Engineering,192.168.40.0,255.255.255.0,192.168.40.0,192.168.40.1,192.168.40.254,192.168.40.255,256,254,Engineering,Engineering department,192.168.40.1
+99,Guest,192.168.99.0,255.255.255.0,192.168.99.0,192.168.99.1,192.168.99.254,192.168.99.255,256,254,Guest,Guest access (isolated),192.168.99.1
+
+Device Type,Device Name,IP Address,Subnet,VLAN,Notes
+Router,Core-Router-01,192.168.10.10,192.168.10.0/24,10,Core router - management interface
+Switch,Core-Switch-01,192.168.10.11,192.168.10.0/24,10,Core switch - management
+Switch,Dist-Switch-01,192.168.10.12,192.168.10.0/24,10,Distribution switch 1
+Switch,Dist-Switch-02,192.168.10.13,192.168.10.0/24,10,Distribution switch 2
+Switch,Access-Switch-01,192.168.10.14,192.168.10.0/24,10,Access switch 1
+Switch,Access-Switch-02,192.168.10.15,192.168.10.0/24,10,Access switch 2
+Switch,Access-Switch-03,192.168.10.16,192.168.10.0/24,10,Access switch 3
+Firewall,Firewall-01,192.168.10.20,192.168.10.0/24,10,Firewall management
+DHCP Server,DHCP-Server-01,192.168.20.10,192.168.20.0/24,20,DHCP server
+DNS Server,DNS-Server-01,192.168.20.11,192.168.20.0/24,20,DNS server
+File Server,File-Server-01,192.168.20.20,192.168.20.0/24,20,File server
+Web Server,Web-Server-01,192.168.20.30,192.168.20.0/24,20,Web server
+Reserved,Reserved Range,192.168.1.1-192.168.1.10,192.168.1.0/24,1,Gateway and reserved IPs
+Reserved,Reserved Range,192.168.10.1-192.168.10.50,192.168.10.0/24,10,Network devices
+Reserved,Reserved Range,192.168.20.1-192.168.20.50,192.168.20.0/24,20,Servers and reserved
+Reserved,Reserved Range,192.168.30.1-192.168.30.10,192.168.30.0/24,30,Gateway and reserved
+Reserved,Reserved Range,192.168.40.1-192.168.40.10,192.168.40.0/24,40,Gateway and reserved
+Reserved,Reserved Range,192.168.99.1-192.168.99.10,192.168.99.0/24,99,Gateway and reserved
+

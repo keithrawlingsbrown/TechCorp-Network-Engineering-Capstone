@@ -1,0 +1,42 @@
+# Packet Tracer Files
+*.pkt~
+*.pka
+
+# VirtualBox Files
+*.vdi
+*.vmdk
+*.vbox
+*.vbox-prev
+
+# Log Files
+*.log
+logs/
+*.log.*
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Large Files (optional - uncomment if needed)
+# *.pkt (if files are too large for GitHub)
+
+# Personal Notes
+notes.txt
+personal-notes.md
+
