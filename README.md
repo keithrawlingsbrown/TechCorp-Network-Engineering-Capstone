@@ -185,10 +185,12 @@ Built a complete enterprise network with 4 Cisco switches, 6 VLANs, trunk config
 
 | Project | Status | Completion | Time Invested |
 |---------|--------|------------|---------------|
-| Project 1: Network Design | ✅ Complete | 100% | 3h 15m |
-| Project 2: Core Network Build | ⏳ Not Started | 0% | - |
-| Project 3: Routing & Inter-VLAN | ⏳ Not Started | 0% | - |
-| Project 4: Firewall & Security | ⏳ Not Started | 0% | - |
+## Progress Tracker
+
+- ✅ Project 1: Network Design & Architecture (Complete)
+- ✅ Project 2: Core Network Build (Complete)
+- ⏳ Project 3: Advanced Routing
+- ⏳ Project 4: Network Security
 | Project 5: DHCP & DNS Services | ⏳ Not Started | 0% | - |
 | Project 6: Monitoring & Management | ⏳ Not Started | 0% | - |
 | Project 7: Automation & Scripting | ⏳ Not Started | 0% | - |
