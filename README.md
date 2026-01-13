@@ -50,15 +50,30 @@ Complete enterprise network engineering capstone project demonstrating end-to-en
 
 ### Project 2: Core Network Build ⏳ **Upcoming**
 
-**Status:** ⏳ Not Started  
-**Planned Start:** January 13, 2026
+## Project 2: Core Network Build ✅
 
-**Objectives:**
-- Physical network implementation
-- Switch configuration
-- Basic connectivity testing
-- Cable management
-- Initial troubleshooting
+**Status:** COMPLETE  
+**Completion Date:** January 13, 2026  
+
+Built a complete enterprise network with 4 Cisco switches, 6 VLANs, trunk configuration, and Spanning Tree Protocol. Demonstrates hands-on experience with enterprise network infrastructure.
+
+**What I Built:**
+- 4 Cisco switches (1 core, 3 access)
+- 6 production VLANs for department segmentation
+- 3 trunk links with 802.1Q tagging
+- 12+ access ports for end devices
+- Complete PVST+ Spanning Tree topology
+
+**Skills Demonstrated:**
+- Cisco IOS CLI
+- VLAN creation and management
+- Trunk port configuration
+- Access port assignment
+- STP topology analysis
+- Network troubleshooting
+- Configuration management
+
+[View Project 2 Details →](./Project-02-Core-Network-Build/)
 
 ---
 
